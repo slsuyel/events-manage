@@ -1,6 +1,5 @@
 import Link from 'next/link'
 
-
 export default function Footer1() {
 	return (
 		<>
@@ -38,7 +37,7 @@ export default function Footer1() {
 									<li><Link href="/blog">Our Blogs</Link></li>
 									<li><Link href="/event">Event Listing</Link></li>
 									<li><Link href="/pricing-plan">Pricing Plan</Link></li>
-									<li><Link href="/contact">Contact Us</Link></li>
+									<li><Link href="/contact">Register Now</Link></li>
 								</ul>
 							</div>
 						</div>
@@ -130,7 +129,6 @@ export default function Footer1() {
 					</div>
 				</div>
 			</div>
-
 		</>
 	)
 }

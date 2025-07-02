@@ -155,11 +155,11 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu, isSear
 											</li>
 											  
 											<li>
-												  <Link href="/#">Contact Us<i className="fa-solid fa-angle-down" /></Link>
+												   <Link href="/#">Register Now <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
 													 
 													<li><Link href="/faq">FAQ,s</Link></li>
-													<li><Link href="/contact">Contact Us</Link></li>
+													<li><Link href="/contact">Register Now </Link></li>
 												</ul>
 											</li>
 										</ul>
