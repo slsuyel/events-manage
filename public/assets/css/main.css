@@ -9204,7 +9204,9 @@ html {
 	position: relative;
 	transition: all 0.4s;
 }
-
+.tp-submenu{
+	display: none !important;
+}
 .homepage1-body .header-area.homepage1 .header-elements .main-menu {
 	position: relative;
 }
