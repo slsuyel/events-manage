@@ -3619,8 +3619,8 @@ Location:
 .hero7-section-area .date-btn svg {
 	position: absolute;
 	z-index: -1;
-	left: -28px;
-	top: -34px;
+	left: -41px;
+	top: -53px;
 }
 
 .hero7-section-area .date-btn h2 {
@@ -3785,6 +3785,7 @@ Location:
 		display: block;
 		text-align: center;
 		margin: 0 auto;
+		padding: 10px 5px;
 	}
 }
 
@@ -3793,6 +3794,7 @@ Location:
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		padding: 40px 50px;
 	}
 }
 

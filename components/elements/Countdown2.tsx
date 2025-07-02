@@ -18,8 +18,7 @@ const getPartsOfTimeDuration = (duration: number) => {
 export default function Countdown2() {
 	const [timeDif, setTimeDif] = useState(() => {
 		const now = Date.now()
-		const endDateTime = new Date()
-		endDateTime.setDate(endDateTime.getDate() + 2) // Set end date 2 days from now
+		const endDateTime = new Date(2025, 6, 16)
 		return endDateTime.getTime() - now
 	})
 
@@ -41,28 +40,37 @@ export default function Countdown2() {
 	const timeParts = getPartsOfTimeDuration(timeDif)
 
 	return (
-		<div className="row">
-			<div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={900}>
-				<div className="time-box">
-					<span id="days1" className="time-value">{timeParts.days}<span>Days</span></span>
+		<div className="container py-5">
+			<div className="row justify-content-center">
+				{/* Days */}
+				<div className="col-6 col-sm-3 col-md-2 my-2">
+					<div className="time-box p-3 text-center rounded shadow-sm bg-light">
+						<span className="time-value display-4">{timeParts.days}</span>
+						<span className="d-block mt-2">Days</span>
+					</div>
 				</div>
-			</div>
-			<div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={1000}>
-				<div className="time-box">
-					<span id="hours1" className="time-value">{timeParts.hours}<span>Hours</span></span>
+				{/* Hours */}
+				<div className="col-6 col-sm-3 col-md-2 my-2">
+					<div className="time-box p-3 text-center rounded shadow-sm bg-light">
+						<span className="time-value display-4">{timeParts.hours}</span>
+						<span className="d-block mt-2">Hours</span>
+					</div>
 				</div>
-			</div>
-			<div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={1100}>
-				<div className="time-box">
-					<span id="minutes1" className="time-value">{timeParts.minutes}<span>Minutes</span></span>
+				{/* Minutes */}
+				<div className="col-6 col-sm-3 col-md-2 my-2">
+					<div className="time-box p-3 text-center rounded shadow-sm bg-light">
+						<span className="time-value display-4">{timeParts.minutes}</span>
+						<span className="d-block mt-2">Minutes</span>
+					</div>
 				</div>
-			</div>
-			<div className="col-lg-3 col-md-6" data-aos="zoom-in" data-aos-duration={1200}>
-				<div className="time-box">
-					<span id="seconds1" className="time-value">{timeParts.seconds}<span>Seconds</span></span>
+				{/* Seconds */}
+				<div className="col-6 col-sm-3 col-md-2 my-2">
+					<div className="time-box p-3 text-center rounded shadow-sm bg-light">
+						<span className="time-value display-4">{timeParts.seconds}</span>
+						<span className="d-block mt-2">Seconds</span>
+					</div>
 				</div>
 			</div>
 		</div>
-
 	)
 }
