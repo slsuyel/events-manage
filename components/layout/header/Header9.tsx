@@ -15,7 +15,7 @@ export default function Header9({ scroll, isMobileMenu, handleMobileMenu, isSear
 									<div className="main-menu">
 										<ul>
 											<li>
-												<Link href="/#">Home <i className="fa-solid fa-angle-down" /></Link>
+												<Link href="/#">Home </Link>
 												<div className="tp-submenu">
 													<div className="row">
 														<div className="col-lg-12">
