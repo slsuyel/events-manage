@@ -168,10 +168,9 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSear
 											</li>
 											  
 											<li>
-												<Link href="/#">Pages <i className="fa-solid fa-angle-down" /></Link>
+												  <Link href="/#">Contact Us<i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
-													<li><Link href="/memories">Our Memories</Link></li>
-													<li><Link href="/pricing-plan">Pricing Plan</Link></li>
+												
 													<li><Link href="/faq">FAQ,s</Link></li>
 													<li><Link href="/contact">Contact Us</Link></li>
 												</ul>
