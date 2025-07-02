@@ -176,13 +176,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isSear
 													<li><Link href="/event-single">Event Details</Link></li>
 												</ul>
 											</li>
-											<li>
-												<Link href="/#">Blogs <i className="fa-solid fa-angle-down" /></Link>
-												<ul className="dropdown-padding">
-													<li><Link href="/blog">Our Blog</Link></li>
-													<li><Link href="/blog-single">Blog Details</Link></li>
-												</ul>
-											</li>
+											  
 											<li>
 												<Link href="/#">Pages <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
