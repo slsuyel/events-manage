@@ -150,12 +150,11 @@ export default function Header7({ scroll, isMobileMenu, handleMobileMenu, isSear
 											<li><Link href="/#">Speakers <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
 													<li><Link href="/speakers">Speakers</Link></li>
-													<li><Link href="/speakers-single">Speakers Details</Link></li>
+													 
 												</ul>
 											</li>
 											<li><Link href="/#">Schedule <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
-													<li><Link href="/event">Our Event</Link></li>
 													<li><Link href="/event-schedule">Event Schedule</Link></li>
 													<li><Link href="/event-single">Event Details</Link></li>
 												</ul>

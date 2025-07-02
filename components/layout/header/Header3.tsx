@@ -155,7 +155,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isSear
 												<Link href="/#">Speakers <i className="fa-solid fa-angle-down" /></Link>
 												<ul className="dropdown-padding">
 													<li><Link href="/speakers">Speakers</Link></li>
-													<li><Link href="/speakers-single">Speakers Details</Link></li>
+													 
 												</ul>
 											</li>
 											<li>
