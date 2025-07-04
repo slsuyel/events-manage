@@ -34,10 +34,10 @@ export default function Footer3() {
 								<h3>Quick Links</h3>
 								<ul>
 									<li><Link href="/about">About Us</Link></li>
-									<li><Link href="/blog">Our Blogs</Link></li>
-									<li><Link href="/event">Event Listing</Link></li>
-									<li><Link href="/pricing-plan">Pricing Plan</Link></li>
-									<li><Link href="/contact">Contact Us</Link></li>
+									<li><Link href="/Speakers">Our speakers</Link></li>
+									<li><Link href="/event-schedule">Event Schedule</Link></li>
+									 
+									<li><Link href="/contact">Register Now</Link></li>
 								</ul>
 							</div>
 						</div>
