@@ -9,9 +9,9 @@ export default function Section7() {
 					<div className="row">
 						<div className="col-lg-5 m-auto">
 							<div className="brand-header heading2 space-margin60 text-center">
-								<h5 data-aos="fade-left" data-aos-duration={800}>general sponsors</h5>
+								<h5 data-aos="fade-left" data-aos-duration={800}>Club Partner </h5>
 								<div className="space16" />
-								<h2 className="text-anime-style-3">Our Official Sponsors</h2>
+								<h2 className="text-anime-style-3">Our Club Partner </h2>
 							</div>
 						</div>
 					</div>

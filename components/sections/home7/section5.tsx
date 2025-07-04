@@ -241,7 +241,7 @@ export default function Section5() {
                 {speakers.map((speaker, index) => (
                   <SwiperSlide key={index} className="team-widget-boxarea">
                     <div className="img1 image-anime">
-                      <img src={speaker.image} alt={speaker.name} />
+                      <img src={'https://t4.ftcdn.net/jpg/13/36/19/89/360_F_1336198915_boKFnjseos9ZjcGjheLPIDurtLfOIW4w.jpg'} alt={speaker.name} />
                       <ul>
                         <li><Link href={speaker.socialLinks.facebook}><i className="fa-brands fa-facebook-f" /></Link></li>
                         <li><Link href={speaker.socialLinks.linkedin}><i className="fa-brands fa-linkedin-in" /></Link></li>
@@ -251,9 +251,9 @@ export default function Section5() {
                     </div>
                     <div className="space20" />
                     <div className="text-area">
-                      <Link href="/speakers">{speaker.name}</Link>
+                      <Link href="#">{'Speaker Name'}</Link>
                       <div className="space16" />
-                      <p>{speaker.role}</p>
+                      <p>{'Speaker Designation'}</p>
                     </div>
                   </SwiperSlide>
                 ))}

@@ -159,11 +159,12 @@ export default function ModernEventSchedule() {
         ))}
       </div>
 
-     <style jsx>{`
+      <style jsx>{`
     .event-schedule-container {
       max-width: 1200px;
       margin: 0 auto;
       padding: 2rem;
+      font-family: "Figtree", 
     }
 
     .schedule-header {

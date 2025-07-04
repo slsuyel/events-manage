@@ -61,9 +61,9 @@ export default function Section7() {
 					<div className="row">
 						<div className="col-lg-5 m-auto">
 							<div className="brand-header heading12 space-margin60 text-center">
-								<h5>Sponsors</h5>
+								<h5>Club Partner</h5>
 								<div className="space20" />
-								<h2>Our Official Sponsors</h2>
+								<h2>Our Club Partner </h2>
 							</div>
 						</div>
 					</div>

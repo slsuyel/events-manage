@@ -8,7 +8,7 @@ export default function Section9() {
       title: "Inaugural Day & AI Summit",
       speaker: "Prof. Muhammad Mustafa Hussain",
       description: "The opening day of the BEAR Summit 2025 with keynote speeches, panel discussions, and networking opportunities.",
-      link: "/event-single",
+      
     },
     {
       day: "Day 02",
@@ -16,7 +16,7 @@ export default function Section9() {
       title: "Bangladesh National Semiconductor Symposium 2025",
       speaker: "Mr. Faiz Taiyeb",
       description: "This event focuses on the semiconductor ecosystem in Bangladesh, featuring presentations and networking.",
-      link: "/event-single",
+      
     },
     {
       day: "Day 03",
@@ -24,7 +24,7 @@ export default function Section9() {
       title: "Global Semiconductor Leaders Roundtable",
       speaker: "KEPZ Leadership",
       description: "A roundtable discussion with global semiconductor leaders in Chattogram, Bangladesh.",
-      link: "/event-single",
+      
     },
   ];
 
@@ -43,7 +43,7 @@ export default function Section9() {
             <div key={index} className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration={800 + index * 200}>
               <div className="blog1-auhtor-boxarea">
                 <div className="img1 image-anime">
-                  <img src={`/assets/img/all-images/blog/blog-img${index + 1}.png`} alt={event.title} />
+                  <img src={`https://img.freepik.com/premium-vector/man-is-giving-speech-simple-flat-design-style_995281-5304.jpg`} alt={event.title} />
                 </div>
                 <div className="content-area">
                   <ul>
@@ -61,7 +61,7 @@ export default function Section9() {
                     </li>
                   </ul>
                   <div className="space20" />
-                  <Link href={event.link}>{event.title}</Link>
+                  <Link href={'#'}>{event.title}</Link>
                   <div className="space24" />
                   <p>{event.description}</p>
                   <div className="space24" />

@@ -55,7 +55,7 @@ export default function Section7() {
 	return (
 		<>
 
-			<div className="testimonials7-section-area sp1">
+			<div className="testimonials7-section-area sp1 d-none">
 				<div className="container">
 					<div className="row">
 						<div className="col-lg-5">
