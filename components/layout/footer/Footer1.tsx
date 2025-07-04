@@ -18,13 +18,10 @@ export default function Footer1() {
 										<Link href="/#"><i className="fa-brands fa-facebook-f" /></Link>
 									</li>
 									<li>
-										<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
+										<Link href="/#"><i className="fa-brands fa-youtube" /></Link>
 									</li>
 									<li>
 										<Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link>
-									</li>
-									<li>
-										<Link href="/#" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link>
 									</li>
 								</ul>
 							</div>
@@ -86,30 +83,6 @@ export default function Footer1() {
 									<div className="col-lg-4 col-md-4 col-4">
 										<div className="img1">
 											<img src="/assets/img/all-images/footer/footer-img3.png" alt="" />
-											<div className="icons">
-												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-4 col-md-4 col-4">
-										<div className="img1">
-											<img src="/assets/img/all-images/footer/footer-img4.png" alt="" />
-											<div className="icons">
-												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-4 col-md-4 col-4">
-										<div className="img1">
-											<img src="/assets/img/all-images/footer/footer-img5.png" alt="" />
-											<div className="icons">
-												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
-											</div>
-										</div>
-									</div>
-									<div className="col-lg-4 col-md-4 col-4">
-										<div className="img1">
-											<img src="/assets/img/all-images/footer/footer-img6.png" alt="" />
 											<div className="icons">
 												<Link href="/#"><i className="fa-brands fa-instagram" /></Link>
 											</div>
