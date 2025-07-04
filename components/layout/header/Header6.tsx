@@ -68,7 +68,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, isSear
                                                                         {item.subMenu.map((subItem, subIndex) => (
                                                                             <div className="homemenu-thumb" key={subIndex}>
                                                                                 <div className="img1">
-                                                                                    <img src={subItem.imgSrc || '/assets/img/all-images/demo/demo-img1.png'} alt="" />
+                                                                                    <img src={'/assets/img/all-images/demo/demo-img1.png'} alt="" />
                                                                                 </div>
                                                                                 <div className="homemenu-btn">
                                                                                     <Link className="vl-btn6" href={subItem.demoLink}>

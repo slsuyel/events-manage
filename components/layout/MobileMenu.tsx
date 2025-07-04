@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
     const [isAccordion, setIsAccordion] = useState<number | null>(null);
 
-    const menuItems = [
+    const menuItems:any = [
         { title: 'Home', link: '/' },
         { title: 'About Event', link: '/about' },
         { title: 'Speakers', link: '/speakers', },
@@ -44,7 +44,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                 </div>
                 <div className="mobile-nav mobile-nav1">
                     <ul className="mobile-nav-list nav-list1">
-                        {menuItems.map((item, index) => (
+                        {menuItems.map((item:any, index:number) => (
                             <li key={index} className={item.subMenu ? 'has-sub hash-has-sub' : ''}>
                                 <div 
                                     className={`submenu-button ${isAccordion === index + 1 ? "submenu-opened" : ""}`}
@@ -55,7 +55,7 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                 </div>
                                 {item.subMenu && (
                                     <ul className={`sub-menu ${isAccordion === index + 1 ? "open-sub" : ""}`} style={{ display: `${isAccordion === index + 1 ? "block" : "none"}` }}>
-                                        {item.subMenu.map((subItem, subIndex) => (
+                                        {item.subMenu.map((subItem:any, subIndex:number) => (
                                             <li key={subIndex}>
                                                 <Link href={subItem.link} className="hash-nav">{subItem.title}</Link>
                                             </li>
@@ -76,15 +76,15 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                         <span><i className="fa-solid fa-phone-volume" /></span>
                                     </div>
                                     <div className="contact-info-text">
-                                        <Link href="//tel:+3(924)4596512">+3(924)4596512</Link>
+                                        <Link href="//tel:+8801305288721">+8801305288721 (Rafi)</Link>
                                     </div>
                                 </div>
                                 <div className="contact-info-single">
                                     <div className="contact-info-icon">
-                                        <span><i className="fa-solid fa-envelope" /></span>
+                                        <span><i className="fa-solid fa-phone-volume" /></span>
                                     </div>
                                     <div className="contact-info-text">
-                                        <Link href="//mailto:info@example.com">info@example.com</Link>
+                                        <Link href="//tel:+8801620472765">+8801620472765 (Jubayer)</Link>
                                     </div>
                                 </div>
                                 <div className="single-footer">
@@ -94,29 +94,11 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
                                             <span><i className="fa-solid fa-location-dot" /></span>
                                         </div>
                                         <div className="contact-info-text">
-                                            <Link href="//mailto:info@example.com">55 East Birchwood Ave. Brooklyn, <br />New York 11201, United States</Link>
+                                            <Link href="//mailto:nssbd2025@gmail.com">Dhaka & Chattogram, Bangladesh</Link>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="single-footer">
-                                    <h3>Social Links</h3>
-                                    <div className="social-links-mobile-menu">
-                                        <ul>
-                                            <li>
-                                                <Link href="//#"><i className="fa-brands fa-facebook-f" /></Link>
-                                            </li>
-                                            <li>
-                                                <Link href="//#"><i className="fa-brands fa-instagram" /></Link>
-                                            </li>
-                                            <li>
-                                                <Link href="//#"><i className="fa-brands fa-linkedin-in" /></Link>
-                                            </li>
-                                            <li>
-                                                <Link href="//#"><i className="fa-brands fa-youtube" /></Link>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                </div>
+                               
                             </div>
                         </div>
                     </div>
