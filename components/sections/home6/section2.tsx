@@ -23,7 +23,7 @@ export default function Section2() {
 									</span>
 									<Countdown style={3} />
 									<div className="btn-area1">
-										<Link className="vl-btn6" href="/pricing-plan">
+										<Link className="vl-btn6" href="/contact">
 											<span className="demo">
 												Buy A Ticket <img src="/assets/img/icons/arrow2.svg" alt="" />
 											</span>

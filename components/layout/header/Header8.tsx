@@ -53,7 +53,7 @@ export default function Header8({ scroll, isMobileMenu, handleMobileMenu, isSear
                             <div className="col-lg-12">
                                 <div className="menu-top-area">
                                     <div className="top-menu-area">
-                                        <p>Are you Ready to Enenify Conferences?<Link href="/#">Buy Ticket</Link></p>
+                                        <p>Are you Ready to Enenify Conferences?<Link href="/#">Register Now</Link></p>
                                         <ul>
                                             <li>
                                                 <Link href="/mailto:eventifyconference@.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventifyconference@.com <span> | </span></Link>
@@ -107,7 +107,7 @@ export default function Header8({ scroll, isMobileMenu, handleMobileMenu, isSear
                                             <a><img src="/assets/img/icons/search1.svg" alt="" /></a>
                                         </div>
                                         <div className="btn-area1">
-                                            <Link className="vl-btn8" href="/pricing-plan"><span className="demo">Buy Ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
+                                            <Link className="vl-btn8" href="/contact"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
                                             </Link>
                                         </div>
                                     </div>

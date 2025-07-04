@@ -23,7 +23,7 @@ export default function Section12() {
 						<div className="col-lg-12 m-auto">
 							<div className="space60" />
 							<div className="btn-area1 text-center">
-								<Link href="/pricing-plan" className="vl-btn5"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+								<Link href="/contact" className="vl-btn5"><span className="demo">purchase ticket now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 								<Link href="/contact" className="vl-btn5 btn2"><span className="demo">Reserve Seat</span></Link>
 							</div>
 						</div>

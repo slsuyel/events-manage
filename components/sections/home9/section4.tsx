@@ -35,7 +35,7 @@ export default function Section4() {
 								</ul>
 								<div className="space32" />
 								<div className="btn-area1">
-									<Link href="/pricing-plan" className="vl-btn9">Buy Tickets Now</Link>
+									<Link href="/contact" className="vl-btn9">Register Nows Now</Link>
 								</div>
 							</div>
 						</div>
@@ -57,7 +57,7 @@ export default function Section4() {
 								</ul>
 								<div className="space32" />
 								<div className="btn-area1">
-									<Link href="/pricing-plan" className="vl-btn9">Buy Tickets Now</Link>
+									<Link href="/contact" className="vl-btn9">Register Nows Now</Link>
 								</div>
 							</div>
 						</div>
@@ -78,7 +78,7 @@ export default function Section4() {
 								</ul>
 								<div className="space32" />
 								<div className="btn-area1">
-									<Link href="/pricing-plan" className="vl-btn9">Buy Tickets Now</Link>
+									<Link href="/contact" className="vl-btn9">Register Nows Now</Link>
 								</div>
 							</div>
 						</div>

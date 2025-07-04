@@ -84,7 +84,7 @@ export default function Event() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
+																	<Link href="/contact" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
 																</div>
 															</div>
 														</div>
@@ -135,7 +135,7 @@ export default function Event() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
+																	<Link href="/contact" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
 																</div>
 															</div>
 															<div className="space30 d-lg-none d-block" />
@@ -198,7 +198,7 @@ export default function Event() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
+																	<Link href="/contact" className="vl-btn1"><span className="demo">purchase ticket Now</span></Link>
 																</div>
 															</div>
 														</div>
@@ -242,7 +242,7 @@ export default function Event() {
 										<div className="timer-btn-area">
 										<Countdown />
 											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+												<Link href="/contact" className="vl-btn1">Register Now</Link>
 											</div>
 										</div>
 										<ul>
@@ -268,7 +268,7 @@ export default function Event() {
 										<div className="timer-btn-area">
 										<Countdown />
 											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+												<Link href="/contact" className="vl-btn1">Register Now</Link>
 											</div>
 										</div>
 										<ul>

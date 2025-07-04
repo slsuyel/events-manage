@@ -21,7 +21,7 @@ export default function Section1() {
 								<div className="space40" />
 								<div className="btn-area1">
 									<Link href="/event-schedule" className="vl-btn3">Reserve premium Seat</Link>
-									<Link href="/pricing-plan" className="vl-btn3 btn2">buy ticket now</Link>
+									<Link href="/contact" className="vl-btn3 btn2">Register Now now</Link>
 								</div>
 								<div className="arrow-btnarea">
 									<Link href="/about">
@@ -36,7 +36,7 @@ export default function Section1() {
 									<div className="space14" />
 									<p>January</p>
 									<div className="space20" />
-									<Link href="/pricing-plan">Buy Ticket</Link>
+									<Link href="/contact">Register Now</Link>
 								</div>
 							</div>
 						</div>

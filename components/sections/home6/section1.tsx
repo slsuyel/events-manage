@@ -15,7 +15,7 @@ export default function Section1() {
 								<h1 className="text-anime-style-3">Empowering Tomorrow's Marketers</h1>
 								<div className="space24" />
 								<div className="btn-area1">
-									<Link href="/pricing-plan" className="vl-btn6">Buy Tickets Now <img src="/assets/img/icons/arrow2.svg" alt="" /></Link>
+									<Link href="/contact" className="vl-btn6">Register Nows Now <img src="/assets/img/icons/arrow2.svg" alt="" /></Link>
 								</div>
 								<div className="arrow-btn">
 									<img src="/assets/img/elements/elements34.png" alt="" className="keyframe5" />

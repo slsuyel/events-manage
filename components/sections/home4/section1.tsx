@@ -46,7 +46,7 @@ export default function Section1() {
 									</ul>
 									<div className="space24" />
 									<div className="btn-area1">
-										<Link href="/pricing-plan" className="vl-btn4">buy tickets</Link>
+										<Link href="/contact" className="vl-btn4">Register Nows</Link>
 									</div>
 								</div>
 							</div>

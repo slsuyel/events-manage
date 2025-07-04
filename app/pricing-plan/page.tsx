@@ -106,7 +106,7 @@ export default function PricingPlan() {
 										<div className="timer-btn-area">
 										<Countdown />
 											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+												<Link href="/contact" className="vl-btn1">Register Now</Link>
 											</div>
 										</div>
 										<ul>
@@ -132,7 +132,7 @@ export default function PricingPlan() {
 										<div className="timer-btn-area">
 										<Countdown />
 											<div className="btn-area1">
-												<Link href="/pricing-plan" className="vl-btn1">Buy Ticket</Link>
+												<Link href="/contact" className="vl-btn1">Register Now</Link>
 											</div>
 										</div>
 										<ul>

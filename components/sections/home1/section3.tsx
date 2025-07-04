@@ -107,7 +107,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -142,7 +142,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -177,7 +177,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -213,7 +213,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -249,7 +249,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -284,7 +284,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -319,7 +319,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -355,7 +355,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -390,7 +390,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -425,7 +425,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -461,7 +461,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -496,7 +496,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>
@@ -531,7 +531,7 @@ export default function Section3() {
 														collaboration from keynote presentations.</p>
 													<div className="space32" />
 													<div className="btn-area1">
-														<Link href="/pricing-plan" className="vl-btn1">purchase ticket now</Link>
+														<Link href="/contact" className="vl-btn1">purchase ticket now</Link>
 													</div>
 												</div>
 											</div>

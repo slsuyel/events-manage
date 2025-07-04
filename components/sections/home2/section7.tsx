@@ -31,7 +31,7 @@ export default function Section7() {
 									<p>470/500</p>
 									<div className="space24" />
 									<div className="btn-area1">
-										<Link href="/pricing-plan" className="vl-btn2"><span className="demo">Buy Ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+										<Link href="/contact" className="vl-btn2"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 									</div>
 								</div>
 							</div>
@@ -50,7 +50,7 @@ export default function Section7() {
 									<p>470/500</p>
 									<div className="space24" />
 									<div className="btn-area1">
-										<Link href="/pricing-plan" className="vl-btn2"><span className="demo">Buy Ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+										<Link href="/contact" className="vl-btn2"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 									</div>
 								</div>
 							</div>
@@ -69,7 +69,7 @@ export default function Section7() {
 									<p>470/500</p>
 									<div className="space24" />
 									<div className="btn-area1">
-										<Link href="/pricing-plan" className="vl-btn2"><span className="demo">Buy Ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+										<Link href="/contact" className="vl-btn2"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 									</div>
 								</div>
 							</div>

@@ -70,7 +70,7 @@ export default function Section3() {
 														</div>
 														<div className="space24" />
 														<div className="btn-area1">
-															<Link href="/pricing-plan" className="vl-btn5"><span className="demo">Buy ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+															<Link href="/contact" className="vl-btn5"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 														</div>
 													</div>
 												</div>
@@ -122,7 +122,7 @@ export default function Section3() {
 														</div>
 														<div className="space24" />
 														<div className="btn-area1">
-															<Link href="/pricing-plan" className="vl-btn5"><span className="demo">Buy ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+															<Link href="/contact" className="vl-btn5"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 														</div>
 													</div>
 													<div className="space30 d-lg-none d-block" />
@@ -186,7 +186,7 @@ export default function Section3() {
 														</div>
 														<div className="space24" />
 														<div className="btn-area1">
-															<Link href="/pricing-plan" className="vl-btn5"><span className="demo">Buy ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+															<Link href="/contact" className="vl-btn5"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 														</div>
 													</div>
 												</div>

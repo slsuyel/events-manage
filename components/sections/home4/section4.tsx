@@ -29,7 +29,7 @@ const handleAccordion = (key: any) => {
 									<h2>Our Events Schedule Plan</h2>
 									<div className="space32" />
 									<div className="btn-area1">
-										<Link href="/pricing-plan" className="vl-btn4">purchase ticket now</Link>
+										<Link href="/contact" className="vl-btn4">purchase ticket now</Link>
 									</div>
 								</div>
 							</div>

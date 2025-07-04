@@ -14,7 +14,7 @@ export default function Section9() {
 								<div className="timer-btn-area">
 								<Countdown />
 									<div className="btn-area1">
-										<Link className="vl-btn2" href="/pricing-plan"><span className="demo">Buy A Ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
+										<Link className="vl-btn2" href="/contact"><span className="demo">Buy A Ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
 										</Link>
 									</div>
 								</div>

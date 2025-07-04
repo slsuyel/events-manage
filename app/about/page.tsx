@@ -65,7 +65,7 @@ export default function About() {
                           fill="#00B894"
                         />
                       </svg>
-                      <Link href="/pricing-plan">
+                      <Link href="/contact">
                         <span>
                           <i className="fa-solid fa-arrow-right" />
                         </span>
@@ -339,7 +339,7 @@ export default function About() {
                     <div className="timer-btn-area">
                       <Countdown />
                       <div className="btn-area1">
-                        <Link href="/pricing-plan" className="vl-btn1">
+                        <Link href="/contact" className="vl-btn1">
                           Register Now
                         </Link>
                       </div>

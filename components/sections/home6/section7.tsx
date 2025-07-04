@@ -27,7 +27,7 @@ export default function Section7() {
 								<h2>$249<span>2x1 with code Eventify</span></h2>
 								<div className="space40" />
 								<div className="btn-area1">
-									<Link href="/pricing-plan" className="vl-btn6">Buy Tickets Now <img src="/assets/img/icons/arrow2.svg" alt="" /></Link>
+									<Link href="/contact" className="vl-btn6">Register Nows Now <img src="/assets/img/icons/arrow2.svg" alt="" /></Link>
 								</div>
 								<div className="space40" />
 								<h4>Complete Access To:</h4>
@@ -55,7 +55,7 @@ export default function Section7() {
 								<h2>$449<span>2x1 with code Eventify</span></h2>
 								<div className="space40" />
 								<div className="btn-area1">
-									<Link href="/pricing-plan" className="vl-btn6">Buy Tickets Now <img src="/assets/img/icons/arrow2.svg" alt="" /></Link>
+									<Link href="/contact" className="vl-btn6">Register Nows Now <img src="/assets/img/icons/arrow2.svg" alt="" /></Link>
 								</div>
 								<div className="space40" />
 								<h4>Complete Access To:</h4>

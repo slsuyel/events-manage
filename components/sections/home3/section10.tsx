@@ -15,7 +15,7 @@ export default function Section10() {
 					<div className="space14" />
 					<p>January</p>
 					<div className="space20" />
-					<Link href="/pricing-plan">Buy Ticket</Link>
+					<Link href="/contact">Register Now</Link>
 				</div>
 				<div className="container">
 					<div className="row">

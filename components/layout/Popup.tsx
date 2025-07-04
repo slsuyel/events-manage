@@ -65,7 +65,7 @@ export default function Popup() {
 					</div>
 					<div className="space50" />
 					<Link className="vl-btn2" href="/contact">
-						<span className="demo">Buy Ticket Now</span>
+						<span className="demo">Register Now Now</span>
 						<span className="arrow">
 							<i className="fa-solid fa-arrow-right" />
 						</span>

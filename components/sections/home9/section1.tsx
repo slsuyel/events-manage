@@ -16,7 +16,7 @@ export default function Section1() {
 								<h1 className="text-anime-style-3">World Music Events 2025</h1>
 								<div className="space32" />
 								<div className="btn-area1">
-									<Link href="/contact" className="vl-btn9"><span className="demo">Buy Tickets Now!</span></Link>
+									<Link href="/contact" className="vl-btn9"><span className="demo">Register Nows Now!</span></Link>
 									<Link href="/event-schedule" className="vl-btn9 btn2"><span className="demo">Schedules</span></Link>
 								</div>
 							</div>

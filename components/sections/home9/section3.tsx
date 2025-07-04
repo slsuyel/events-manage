@@ -107,7 +107,7 @@ export default function Section3() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
+																	<Link href="/contact" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
 																</div>
 															</div>
 														</div>
@@ -160,7 +160,7 @@ export default function Section3() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
+																	<Link href="/contact" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
 																</div>
 															</div>
 															<div className="space30 d-lg-none d-block" />
@@ -225,7 +225,7 @@ export default function Section3() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
+																	<Link href="/contact" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
 																</div>
 															</div>
 														</div>
@@ -287,7 +287,7 @@ export default function Section3() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
+																	<Link href="/contact" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
 																</div>
 															</div>
 														</div>
@@ -340,7 +340,7 @@ export default function Section3() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
+																	<Link href="/contact" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
 																</div>
 															</div>
 															<div className="space30 d-lg-none d-block" />
@@ -405,7 +405,7 @@ export default function Section3() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
+																	<Link href="/contact" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
 																</div>
 															</div>
 														</div>
@@ -467,7 +467,7 @@ export default function Section3() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
+																	<Link href="/contact" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
 																</div>
 															</div>
 														</div>
@@ -520,7 +520,7 @@ export default function Section3() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
+																	<Link href="/contact" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
 																</div>
 															</div>
 															<div className="space30 d-lg-none d-block" />
@@ -585,7 +585,7 @@ export default function Section3() {
 																</div>
 																<div className="space24" />
 																<div className="btn-area1">
-																	<Link href="/pricing-plan" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
+																	<Link href="/contact" className="vl-btn9"><span className="demo">purchase ticket</span></Link>
 																</div>
 															</div>
 														</div>

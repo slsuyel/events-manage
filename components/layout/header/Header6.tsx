@@ -94,7 +94,7 @@ export default function Header6({ scroll, isMobileMenu, handleMobileMenu, isSear
                                             <a><img src="/assets/img/icons/search1.svg" alt="" /></a>
                                         </div>
                                         <div className="btn-area1">
-                                            <Link className="vl-btn6" href="/pricing-plan"><span className="demo">Buy Ticket</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
+                                            <Link className="vl-btn6" href="/contact"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span>
                                             </Link>
                                         </div>
                                     </div>

@@ -40,7 +40,7 @@ export default function Section1() {
 					<div className="space14" />
 					<p>January</p>
 					<div className="space20" />
-					<Link href="/pricing-plan">Buy Ticket</Link>
+					<Link href="/contact">Register Now</Link>
 				</div>
 			</div>
 
