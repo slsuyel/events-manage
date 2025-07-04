@@ -61,7 +61,7 @@ export default function Section4() {
 											<div className="text">
 												<h5>Call/Message</h5>
 												<div className="space14" />
-												<Link href="/tel:+11234567890">+1 123 456 7890</Link>
+												<Link href="/tel:+11234567890">+8801305288721</Link>
 											</div>
 										</div>
 										<div className="space18" />

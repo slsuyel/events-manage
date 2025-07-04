@@ -42,7 +42,7 @@ export default function Footer7() {
 										7890</Link></li>
 									<li><Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The
 										UK</Link></li>
-									<li><Link href="/mailto:eventifyevent@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventifyevent@gmail.com</Link></li>
+									<li><Link href="/mailto:nssbd2025@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />nssbd2025@gmail.com</Link></li>
 									<li><Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />eventifyevent.com</Link></li>
 								</ul>
 							</div>

@@ -55,7 +55,7 @@ export default function Footer9() {
 											UK</Link>
 									</li>
 									<li>
-										<Link href="/mailto:eventifyevent@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventifyevent@gmail.com</Link>
+										<Link href="/mailto:nssbd2025@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />nssbd2025@gmail.com</Link>
 									</li>
 									<li>
 										<Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />eventifyevent.com</Link>

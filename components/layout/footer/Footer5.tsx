@@ -46,13 +46,13 @@ export default function Footer5() {
 								<h3>Contact Us</h3>
 								<ul>
 									<li>
-										<Link href="/tel:+11234567890"><img src="/assets/img/icons/phn1.svg" alt="" />+1 123 456 7890</Link>
+										<Link href="/tel:+11234567890"><img src="/assets/img/icons/phn1.svg" alt="" />+8801305288721</Link>
 									</li>
 									<li>
-										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
+										<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Dhaka & Chattogram</Link>
 									</li>
 									<li>
-										<Link href="/mailto:eventifyevent@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />eventifyevent@gmail.com</Link>
+										<Link href="/mailto:nssbd2025@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />nssbd2025@gmail.com</Link>
 									</li>
 									<li>
 										<Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />eventifyevent.com</Link>

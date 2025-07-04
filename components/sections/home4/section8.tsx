@@ -72,7 +72,7 @@ export default function Section8() {
 									<div className="text">
 										<h4>Call/Message</h4>
 										<div className="space10" />
-										<Link href="/tel:+11234567890">+1 123 456 7890</Link>
+										<Link href="/tel:+11234567890">+8801305288721</Link>
 									</div>
 								</div>
 								<div className="contact-author-box" data-aos="fade-left" data-aos-duration={1200}>

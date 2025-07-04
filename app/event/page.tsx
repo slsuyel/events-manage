@@ -250,7 +250,7 @@ export default function Event() {
 												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
 											</li>
 											<li className="m-0">
-												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
+												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Dhaka & Chattogram</Link>
 											</li>
 										</ul>
 									</div>
@@ -276,7 +276,7 @@ export default function Event() {
 												<Link href="/#"><img src="/assets/img/icons/calender1.svg" alt="" />30 January 2025 - 6pm to 11:30pm</Link>
 											</li>
 											<li className="m-0">
-												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Secret Location In The UK</Link>
+												<Link href="/#"><img src="/assets/img/icons/location1.svg" alt="" />Dhaka & Chattogram</Link>
 											</li>
 										</ul>
 									</div>
