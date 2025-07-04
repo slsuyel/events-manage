@@ -33,7 +33,7 @@ export default function Section1() {
 								</div>
 								<div className="arrow-btn">
 									<div className="content" >
-										<CircleText text="Build Success Brand." />
+										<CircleText text="Biotech Robotics Ai" />
 									</div>
 									<div className="arrow">
 										<img src="/assets/img/icons/arrow2.svg" alt="" />

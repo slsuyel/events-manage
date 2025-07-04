@@ -26,9 +26,9 @@ export default function Section1() {
 								<img src="/assets/img/all-images/hero/hero-img7.png" alt="" className="keyframe5 hero-img7" />
 								<Link href="/#">
 									<div className="content" >
-										<CircleText text="Build Success Brand." />
+										<CircleText text="Biotech Robotics Ai" />
 									</div>
-									<span><img src="/assets/img/icons/arrow1.svg" alt="" /></span>
+									<span><img src="https://cdn-icons-png.flaticon.com/512/630/630426.png" alt="" /></span>
 								</Link>
 							</div>
 						</div>

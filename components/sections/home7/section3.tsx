@@ -54,9 +54,9 @@ export default function Section3() {
 								<div className="arrow-btn">
 									<Link href="/#">
 										<div className="content">
-											<CircleText text="Build Success Brand." />
+											<CircleText text="Biotech Robotics Ai" />
 										</div>
-										<img src="/assets/img/icons/arrow1.svg" alt="" className="arrow1" />
+										<img src="https://cdn-icons-png.flaticon.com/512/630/630426.png" alt="" className="arrow1" />
 									</Link>
 								</div>
 								<img src="/assets/img/elements/elements37.png" alt="" className="elements37" />

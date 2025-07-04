@@ -129,20 +129,9 @@ export default function About() {
 
           {/*===== BRANDS AREA STARTS =======*/}
           <div className="brands3-section-area sp2">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-6 m-auto">
-                  <div className="brand-header heading4 space-margin60 text-center">
-                    <h3>Organized by Leading Global & National Institutions</h3>
-                  </div>
-                </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-12" data-aos="zoom-in" data-aos-duration={800}>
-                  <BrandSlider />
-                </div>
-              </div>
-            </div>
+            <BrandSlider />
+
+
           </div>
 
           {/*===== WHY ATTEND AREA STARTS =======*/}
@@ -376,7 +365,7 @@ export default function About() {
           </div>
 
           {/*===== CTA AREA MOBILE =======*/}
-          
+
         </div>
       </Layout>
 

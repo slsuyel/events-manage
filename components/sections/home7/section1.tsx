@@ -18,7 +18,7 @@ export default function Section1() {
 								</svg>
 								<h2>16-18 </h2>
 								<p>July 2025</p>
-						
+
 							</div>
 						</div>
 						<div className="col-lg-5 col-md-9">
@@ -32,9 +32,9 @@ export default function Section1() {
 								<Link href="/#">
 									{/* <img src="/assets/img/elements/elements34.png" alt="" class="elements34 keyframe5"> */}
 									<div className="content" >
-										<CircleText text="Build Success Brand." />
+										<CircleText text="Biotech Robotics Ai" />
 									</div>
-									<img src="/assets/img/icons/arrow1.svg" alt="" className="arrow1" />
+									<img src="https://cdn-icons-png.flaticon.com/512/630/630426.png" alt="" className="arrow1" />
 								</Link>
 							</div>
 						</div>
@@ -46,15 +46,18 @@ export default function Section1() {
 								<img src="/assets/img/all-images/hero/hero-img9.png" alt="" />
 							</div>
 						</div>
-						<div className="col-lg-3 col-md-6">
+						{/* <div className="col-lg-3 col-md-6">
 							<div className="img1 image-anime reveal">
 								<img src="/assets/img/all-images/hero/hero-img10.png" alt="" />
 							</div>
-						</div>
-						<div className="col-lg-4">
+						</div> */}
+						<div className="col-lg-7">
 							<div className="heading-area">
 								<p>From cutting-edge technology and digital transformation to leadership strategies and
 									sustainable growth, Innovate 2024 provide.</p>
+								<p>
+									At the intersection of Biotechnology, Electronics, Artificial Intelligence, and Robotics, this summit is more than an event — it's a launchpad for a decade of innovation, talent, and investment.
+								</p>
 								<div className="space32" />
 								<div className="btn-area1">
 									<Link href="/contact" className="vl-btn7">Reserve My Seat <span><i className="fa-solid fa-arrow-right" /></span></Link>

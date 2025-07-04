@@ -30,9 +30,9 @@ export default function Section1() {
 						{/* <img src="/assets/img/elements/elements19.png" alt="" class="elements19 keyframe5"> */}
 						{/* <img src="/assets/img/elements/elements34.png" alt="" class="elements34 keyframe5"> */}
 						<div className="content" >
-							<CircleText text="Build Success Brand." />
+							<CircleText text="Biotech Robotics Ai" />
 						</div>
-						<img src="/assets/img/icons/arrow1.svg" alt="" className="arrow1" />
+						<img src="https://cdn-icons-png.flaticon.com/512/630/630426.png" alt="" className="arrow1" />
 					</Link>
 				</div>
 				<div className="date-btn aniamtion-key-1">

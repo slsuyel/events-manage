@@ -3725,6 +3725,7 @@ Location:
 	display: inline-block;
 	transform-origin: 0 63px;
 	color: var(--ztc-text-text-1);
+	font-size: 12px;
 }
 
 @media (max-width: 767px) {
