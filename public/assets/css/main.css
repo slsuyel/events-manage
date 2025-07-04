@@ -8,7 +8,12 @@ Author URI: https://themeforest.net/user/alithemes/portfolio
 Location:
 ============================
 */
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Space+Grotesk:wght@300..700&display=swap");
+/* main.css or global CSS file */
+body {
+	font-family: var(--nunito-sans), sans-serif;
+	font-weight: 400;  /* You can define other weights if needed */
+  }
+  
 
 a,
 a:hover {
