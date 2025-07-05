@@ -54,7 +54,7 @@ export default function Speakers() {
                           height={600}
                           src={img || 'https://img.freepik.com/premium-vector/man-is-giving-speech-simple-flat-design-style_995281-5304.jpg'}
                           alt={img}
-                          className="team-img4"
+                          className="team-img4" loading="lazy"
                           onClick={() => handleImageClick(img)} // Trigger modal on image click
                         />
                       </div>

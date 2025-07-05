@@ -350,7 +350,7 @@ export default function Section5() {
                 {images.map((image, index) => (
                   <SwiperSlide key={index} className="team-widget-boxarea">
                     <div className="img1 image-anime">
-                      <Image width={600} height={600} src={image} alt={`Image ${index + 1}`} />
+                      <Image width={600} height={600} src={image} alt={`Image ${index + 1}`}  loading="lazy"  />
                     </div>
                   </SwiperSlide>
                 ))}
