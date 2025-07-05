@@ -46,7 +46,7 @@ export default function Section3() {
 						<div className="col-lg-6">
 							<div className="about-all-images">
 								<div className="img1 image-anime reveal">
-									<img src="/assets/img/all-images/about/about-img17.png" alt="" />
+								<img src="/assets/img/all-images/hero/hero-img9.png" alt="" />
 								</div>
 								<div className="img2 image-anime reveal">
 									<img src="/assets/img/all-images/about/about-img18.png" alt="" />

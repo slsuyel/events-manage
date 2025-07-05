@@ -43,7 +43,7 @@ export default function Section1() {
 					<div className="row">
 						<div className="col-lg-5 col-md-6">
 							<div className="img1 image-anime reveal">
-								<img src="/assets/img/all-images/hero/hero-img9.png" alt="" />
+								<img src="/assets/img/all-images/hero/WhatsApp Image 2025-07-05 at 20.07.31_45eb9ff7.jpg" alt="" />
 							</div>
 						</div>
 						{/* <div className="col-lg-3 col-md-6">
