@@ -164,7 +164,7 @@ export default function ModernEventSchedule() {
       max-width: 1200px;
       margin: 0 auto;
       padding: 2rem;
-      font-family: "Figtree", 
+     
     }
 
     .schedule-header {
