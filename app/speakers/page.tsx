@@ -3,6 +3,7 @@ import { useState } from "react";
 import Countdown from '@/components/elements/Countdown'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import Image from "next/image";
 
 export default function Speakers() {
   const [showModal, setShowModal] = useState(false);
@@ -11,7 +12,7 @@ export default function Speakers() {
   // Dynamic list of speakers
   const images = Array.from({ length: 62 }, (_, index) => `/assets/img/p𝐚𝐭𝐫𝐨𝐧𝐬/${index + 1}.jpg`);
 
-  const handleImageClick = (img:any) => {
+  const handleImageClick = (img: any) => {
     setSelectedImage(img);
     setShowModal(true);
   };
@@ -48,9 +49,11 @@ export default function Speakers() {
                       <img src="/assets/img/elements/elements25.png" alt="" className="elements21" />
                       <img src="/assets/img/elements/elements26.png" alt="" className="elements22" />
                       <div className="img1">
-                        <img 
-                          src={img || 'https://img.freepik.com/premium-vector/man-is-giving-speech-simple-flat-design-style_995281-5304.jpg'} 
-                          alt={img} 
+                        <Image
+                          width={600}
+                          height={600}
+                          src={img || 'https://img.freepik.com/premium-vector/man-is-giving-speech-simple-flat-design-style_995281-5304.jpg'}
+                          alt={img}
                           className="team-img4"
                           onClick={() => handleImageClick(img)} // Trigger modal on image click
                         />

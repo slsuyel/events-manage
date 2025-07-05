@@ -277,6 +277,7 @@
 
 'use client'
 
+import Image from 'next/image';
 import Link from 'next/link'
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
@@ -349,7 +350,7 @@ export default function Section5() {
                 {images.map((image, index) => (
                   <SwiperSlide key={index} className="team-widget-boxarea">
                     <div className="img1 image-anime">
-                      <img src={image} alt={`Image ${index + 1}`} />
+                      <Image width={600} height={600} src={image} alt={`Image ${index + 1}`} />
                     </div>
                   </SwiperSlide>
                 ))}
