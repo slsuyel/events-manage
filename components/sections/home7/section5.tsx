@@ -231,7 +231,7 @@
 //           <div className="row">
 //             <div className="col-lg-5 m-auto">
 //               <div className="team-header space-margin60 heading10 text-center">
-//                 <h2 className="text-anime-style-3">Our Esteemed Speakers</h2>
+//                 <h2 className="text-anime-style-3">Our Esteemed Patrons</h2>
 //               </div>
 //             </div>
 //           </div>
@@ -339,7 +339,7 @@ export default function Section5() {
           <div className="row">
             <div className="col-lg-5 m-auto">
               <div className="team-header space-margin60 heading10 text-center">
-                <h2 className="text-anime-style-3">Our Esteemed Speakers</h2>
+                <h2 className="text-anime-style-3">Our Esteemed Patrons</h2>
               </div>
             </div>
           </div>

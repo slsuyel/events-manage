@@ -19,7 +19,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isSear
             link: '/about',
         },
         {
-            title: 'Speakers',
+            title: 'Patrons',
             link: '/speakers',
             
         },

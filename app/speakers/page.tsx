@@ -1,56 +1,24 @@
+"use client"
+import { useState } from "react";
 import Countdown from '@/components/elements/Countdown'
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 
 export default function Speakers() {
+  const [showModal, setShowModal] = useState(false);
+  const [selectedImage, setSelectedImage] = useState(null);
+
   // Dynamic list of speakers
-  const speakers = [
-    {
-      name: "Alex Robertson",
-      image: "/assets/img/all-images/team/team-img12.png",
-      position: "UI/UX Designer",
-      socialLinks: {
-        facebook: "#",
-        linkedin: "#",
-        instagram: "#",
-        pinterest: "#"
-      }
-    },
-    {
-      name: "Alexy Sammony",
-      image: "/assets/img/all-images/team/team-img13.png",
-      position: "UI/UX Designer",
-      socialLinks: {
-        facebook: "#",
-        linkedin: "#",
-        instagram: "#",
-        pinterest: "#"
-      }
-    },
-    {
-      name: "Kireon Pollardy",
-      image: "/assets/img/all-images/team/team-img14.png",
-      position: "UI/UX Designer",
-      socialLinks: {
-        facebook: "#",
-        linkedin: "#",
-        instagram: "#",
-        pinterest: "#"
-      }
-    },
-    {
-      name: "Adresy Ineasta",
-      image: "/assets/img/all-images/team/team-img15.png",
-      position: "UI/UX Designer",
-      socialLinks: {
-        facebook: "#",
-        linkedin: "#",
-        instagram: "#",
-        pinterest: "#"
-      }
-    },
-    // Add more speakers as needed
-  ];
+  const images = Array.from({ length: 62 }, (_, index) => `/assets/img/p𝐚𝐭𝐫𝐨𝐧𝐬/${index + 1}.jpg`);
+
+  const handleImageClick = (img:any) => {
+    setSelectedImage(img);
+    setShowModal(true);
+  };
+
+  const handleCloseModal = () => {
+    setShowModal(false);
+  };
 
   return (
     <Layout headerStyle={1} footerStyle={1}>
@@ -60,9 +28,9 @@ export default function Speakers() {
             <div className="row">
               <div className="col-lg-5 m-auto">
                 <div className="heading1 text-center">
-                  <h1>Our Speakers</h1>
+                  <h1>Our Patrons</h1>
                   <div className="space20" />
-                  <Link href="/">Home <i className="fa-solid fa-angle-right" /> <span>Our Speakers</span></Link>
+                  <Link href="/">Home <i className="fa-solid fa-angle-right" /> <span>Our Patrons</span></Link>
                 </div>
               </div>
             </div>
@@ -73,39 +41,22 @@ export default function Speakers() {
         <div className="team-sperkers-section-area sp1">
           <div className="container">
             <div className="row">
-              {speakers.map((speaker, index) => (
+              {images?.map((img, index) => (
                 <div key={index} className="col-lg-3 col-md-6">
                   <div className="our-team-boxarea">
                     <div className="team-widget-area">
                       <img src="/assets/img/elements/elements25.png" alt="" className="elements21" />
                       <img src="/assets/img/elements/elements26.png" alt="" className="elements22" />
                       <div className="img1">
-                        <img src={'https://img.freepik.com/premium-vector/man-is-giving-speech-simple-flat-design-style_995281-5304.jpg'} alt={speaker.name} className="team-img4" />
-                        <div className="share">
-                          {/* <Link href="/#"><img src="/assets/img/icons/share1.svg" alt="" /></Link> */}
-                        </div>
-                        <ul>
-                          <li>
-                            <Link href={speaker.socialLinks.facebook} className="icon1"><i className="fa-brands fa-facebook-f" /></Link>
-                          </li>
-                          <li>
-                            <Link href={speaker.socialLinks.linkedin} className="icon2"><i className="fa-brands fa-linkedin-in" /></Link>
-                          </li>
-                          <li>
-                            <Link href={speaker.socialLinks.instagram} className="icon3"><i className="fa-brands fa-instagram" /></Link>
-                          </li>
-                          <li>
-                            <Link href={speaker.socialLinks.pinterest} className="icon4"><i className="fa-brands fa-pinterest-p" /></Link>
-                          </li>
-                        </ul>
+                        <img 
+                          src={img || 'https://img.freepik.com/premium-vector/man-is-giving-speech-simple-flat-design-style_995281-5304.jpg'} 
+                          alt={img} 
+                          className="team-img4"
+                          onClick={() => handleImageClick(img)} // Trigger modal on image click
+                        />
                       </div>
                     </div>
                     <div className="space28" />
-                    <div className="content-area">
-                      <Link href="/speakers-single">{speaker.name}</Link>
-                      <div className="space16" />
-                      <p>{speaker.position}</p>
-                    </div>
                   </div>
                 </div>
               ))}
@@ -113,6 +64,25 @@ export default function Speakers() {
           </div>
         </div>
         {/*===== TEAM AREA ENDS =======*/}
+
+        {/* Modal for displaying clicked image */}
+        {showModal && (
+          <div className="modal show" tabIndex={-1} style={{ display: 'block' }} onClick={handleCloseModal}>
+            <div className="modal-dialog modal-dialog-centered">
+              <div className="modal-content">
+                <div className="modal-header">
+                  <h5 className="modal-title">Patron </h5>
+                  <button type="button" className="close" data-dismiss="modal" aria-label="Close" onClick={handleCloseModal}>
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div className="modal-body">
+                  <img src={selectedImage || 'https://img.freepik.com/premium-vector/man-is-giving-speech-simple-flat-design-style_995281-5304.jpg'} alt="Selected Speaker" className="img-fluid" />
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/*===== CTA AREA STARTS =======*/}
         <div className="cta1-section-area d-lg-block d-block">
@@ -141,6 +111,24 @@ export default function Speakers() {
         </div>
         {/*===== CTA AREA ENDS =======*/}
       </div>
+
+      <style jsx>{`
+        .img1 img {
+          cursor: pointer;
+        }
+
+        .modal .close {
+          font-size: 2rem;
+          color: #000;
+          border: none;
+          background: none;
+          cursor: pointer;
+        }
+
+        .modal .close:hover {
+          color: #dc3545;
+        }
+      `}</style>
     </Layout>
-  )
+  );
 }

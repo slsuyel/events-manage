@@ -7,7 +7,7 @@ export default function Header7({ scroll, isMobileMenu, handleMobileMenu, isSear
     const menuItems = [
         { title: 'Home', link: '/' },
         { title: 'About Event', link: '/about' },
-        { title: 'Speakers', link: '/speakers' },
+        { title: 'Patrons', link: '/speakers' },
         { title: 'Event Schedule', link: '/event-schedule' },
         { title: 'Register Now', link: '/contact' },
     ];
