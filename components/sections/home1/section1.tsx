@@ -27,7 +27,7 @@ export default function Section1() {
 								</p>
 								<div className="space32" />
 								<div className="btn-area1" data-aos="fade-left" data-aos-duration={1100}>
-									<Link href="/event-schedule" className="vl-btn1">Reserve My Seat</Link>
+									<Link href="/event-schedule" className="vl-btn1">Register Now</Link>
 									<Link href="/about" className="vl-btn2">Learn More</Link>
 								</div>
 							</div>

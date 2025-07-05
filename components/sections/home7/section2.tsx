@@ -75,7 +75,7 @@ export default function Section2() {
                     <div className="space10 d-lg-none d-md-block" />
                     <div className="input-area">
                       <button type="submit" className="vl-btn7">
-                       Book slot <span><i className="fa-solid fa-arrow-right" /></span>
+                        Reserve My Seat <span><i className="fa-solid fa-arrow-right" /></span>
                       </button>
                     </div>
                   </div>

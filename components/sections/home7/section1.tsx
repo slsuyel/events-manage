@@ -60,7 +60,7 @@ export default function Section1() {
 								</p>
 								<div className="space32" />
 								<div className="btn-area1">
-									<Link href="/contact" className="vl-btn7">Reserve My Seat <span><i className="fa-solid fa-arrow-right" /></span></Link>
+									<Link href="/contact" className="vl-btn7">Register Now <span><i className="fa-solid fa-arrow-right" /></span></Link>
 								</div>
 							</div>
 						</div>

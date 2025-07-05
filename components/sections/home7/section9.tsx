@@ -8,7 +8,7 @@ export default function Section9() {
       title: "Inaugural Day & AI Summit",
       speaker: "Prof. Muhammad Mustafa Hussain",
       description: "The opening day of the BEAR Summit 2025 with keynote speeches, panel discussions, and networking opportunities.",
-      
+      imageLink: "https://www.kaust.edu.sa/images/kaustlibraries/publishingimages/news/muhammad-mustafa-hussain-headshot-2.png?sfvrsn=d813138c_1"
     },
     {
       day: "Day 02",
@@ -16,7 +16,7 @@ export default function Section9() {
       title: "Bangladesh National Semiconductor Symposium 2025",
       speaker: "Mr. Faiz Taiyeb",
       description: "This event focuses on the semiconductor ecosystem in Bangladesh, featuring presentations and networking.",
-      
+      imageLink: "https://doict.gov.bd/sites/default/files/files/doict.portal.gov.bd/office_head/fdd569ae_b24c_474b_ad59_e5048e24af16/2025-04-17-05-48-47fbb83370a0845fb97ea6f51b6090f0.jpg"
     },
     {
       day: "Day 03",
@@ -24,7 +24,7 @@ export default function Section9() {
       title: "Global Semiconductor Leaders Roundtable",
       speaker: "KEPZ Leadership",
       description: "A roundtable discussion with global semiconductor leaders in Chattogram, Bangladesh.",
-      
+      imageLink: ""
     },
   ];
 
@@ -43,7 +43,11 @@ export default function Section9() {
             <div key={index} className="col-lg-4 col-md-6" data-aos="zoom-in" data-aos-duration={800 + index * 200}>
               <div className="blog1-auhtor-boxarea">
                 <div className="img1 image-anime">
-                  <img src={`https://img.freepik.com/premium-vector/man-is-giving-speech-simple-flat-design-style_995281-5304.jpg`} alt={event.title} />
+                  <Link href={event.imageLink}>
+                    
+                      <img src={ event.imageLink || `https://img.freepik.com/premium-vector/man-is-giving-speech-simple-flat-design-style_995281-5304.jpg`} alt={event.title} />
+                   
+                  </Link>
                 </div>
                 <div className="content-area">
                   <ul>
@@ -65,7 +69,6 @@ export default function Section9() {
                   <div className="space24" />
                   <p>{event.description}</p>
                   <div className="space24" />
-                  
                 </div>
               </div>
             </div>

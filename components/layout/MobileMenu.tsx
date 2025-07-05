@@ -1,5 +1,6 @@
 'use client'
 import { useState } from 'react';
+import Image from 'next/image';
 import Link from 'next/link'
 
 export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
@@ -36,7 +37,12 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
             <div className={`mobile-sidebar mobile-sidebar1 ${isMobileMenu ? 'mobile-menu-active' : ''}`}>
                 <div className="logosicon-area">
                     <div className="logos">
-                        <img src="/assets/img/logo/logo2.png" alt="" />
+                    <div className=" d-flex align-items-center" style={{backgroundColor:'#162F57'}}>
+                                        {/* <Link href="/"><Image width={270} height={80} src="/assets/img/logo/w-bg.png" alt="" /></Link> */}
+                                       
+                                        <Image width={100} height={100} src="/assets/img/logo/no-bg-lll.png" alt="" />
+                                        <Link href={`/`} className=' text-white py-3 fw-bold fs-3'> BNSS 2025</Link>
+                                    </div>
                     </div>
                     <div className="menu-close" onClick={handleMobileMenu}>
                         <i className="fa-solid fa-xmark" />

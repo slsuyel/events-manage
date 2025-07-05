@@ -46,7 +46,7 @@ export default function Section1() {
 									<Countdown />
 									<div className="space32" />
 									<div className="btn-area1">
-										<Link href="/event-schedule" className="vl-btn2"><span className="demo">Reserve My Seat</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+										<Link href="/event-schedule" className="vl-btn2"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 									</div>
 								</div>
 							</div>
@@ -87,7 +87,7 @@ export default function Section1() {
 									<Countdown />
 									<div className="space32" />
 									<div className="btn-area1">
-										<Link href="/event-schedule" className="vl-btn2"><span className="demo">Reserve My Seat</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+										<Link href="/event-schedule" className="vl-btn2"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 									</div>
 								</div>
 							</div>
@@ -128,7 +128,7 @@ export default function Section1() {
 									<Countdown />
 									<div className="space32" />
 									<div className="btn-area1">
-										<Link href="/event-schedule" className="vl-btn2"><span className="demo">Reserve My Seat</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
+										<Link href="/event-schedule" className="vl-btn2"><span className="demo">Register Now</span><span className="arrow"><i className="fa-solid fa-arrow-right" /></span></Link>
 									</div>
 								</div>
 							</div>
