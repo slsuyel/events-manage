@@ -55,7 +55,7 @@ export default function Footer4() {
 										<Link href="/mailto:nssbd2025@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />nssbd2025@gmail.com</Link>
 									</li>
 									<li>
-										<Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />eventifyevent.com</Link>
+										<Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />http://www.bearsummit.site</Link>
 									</li>
 								</ul>
 							</div>

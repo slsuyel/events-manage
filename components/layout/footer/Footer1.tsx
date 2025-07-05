@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import Link from 'next/link'
 
 export default function Footer1() {
@@ -8,7 +9,12 @@ export default function Footer1() {
 					<div className="row">
 						<div className="col-lg-3 col-md-6">
 							<div className="footer-logo-area">
-								<img src="/assets/img/logo/logo2.png" alt="" />
+							<div className=" d-flex align-items-center" style={{backgroundColor:'#162F57'}}>
+                                        {/* <Link href="/"><Image width={270} height={80} src="/assets/img/logo/w-bg.png" alt="" /></Link> */}
+                                       
+                                        <Image width={100} height={100} src="/assets/img/logo/no-bg-lll.png" alt="" />
+                                        <Link href={`/`} className=' text-white py-3 fw-bold fs-3'> BEAR Summit 2025</Link>
+                                    </div>
 								<div className="space16" />
 								<p>We are committed to creating a platform where business leaders, innovators, and professionals
 									can come together to exchange ideas</p>
@@ -52,7 +58,7 @@ Dhaka & Chattogram</Link>
 										<Link href="/mailto:nssbd2025@gmail.com"><img src="/assets/img/icons/mail1.svg" alt="" />nssbd2025@gmail.com</Link>
 									</li>
 									<li>
-										<Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />eventifyevent.com</Link>
+										<Link href="/#"> <img src="/assets/img/icons/world1.svg" alt="" />http://www.bearsummit.site</Link>
 									</li>
 								</ul>
 							</div>

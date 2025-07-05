@@ -21,8 +21,11 @@ export default function Header7({ scroll, isMobileMenu, handleMobileMenu, isSear
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="header-elements">
-                                    <div className="">
-                                        <Link href="/"><Image width={270} height={80} src="/assets/img/logo/w-bg.png" alt="" /></Link>
+                                    <div className=" d-flex align-items-center">
+                                        {/* <Link href="/"><Image width={270} height={80} src="/assets/img/logo/w-bg.png" alt="" /></Link> */}
+                                       
+                                        <Image width={100} height={100} src="/assets/img/logo/no-bg-lll.png" alt="" />
+                                        <Link href={`/`} className=' text-white py-3 fw-bold fs-3'> BEAR Summit 2025</Link>
                                     </div>
                                     <div className="main-menu">
                                         <ul>
