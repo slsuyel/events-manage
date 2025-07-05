@@ -18,7 +18,7 @@ export default function Footer7() {
 									<li><Link href="/#"><i className="fa-brands fa-facebook-f" /></Link></li>
 									 
 									<li><Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link></li>
-									<li><Link href="/#" className="m-0"><i className="fa-brands fa-pinterest-p" /></Link></li>
+									<li><Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link></li>
 								</ul>
 							</div>
 						</div>

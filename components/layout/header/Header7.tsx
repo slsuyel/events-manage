@@ -1,4 +1,5 @@
 
+import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Header7({ scroll, isMobileMenu, handleMobileMenu, isSearch, handleSearch }: any) {
@@ -15,13 +16,13 @@ export default function Header7({ scroll, isMobileMenu, handleMobileMenu, isSear
     return (
         <>
             <header>
-                <div className={`header-area homepage7 header header-sticky d-none d-lg-block ${scroll ? 'sticky' : ''}`} id="header">
+                <div style={{backgroundColor:'#162F57'}} className={`header-area homepage7 header header-sticky d-none d-lg-block ${scroll ? 'sticky' : ''}`} id="header">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="header-elements">
-                                    <div className="site-logo">
-                                        <Link href="/"><img src="/assets/img/logo/logo1.png" alt="" /></Link>
+                                    <div className="">
+                                        <Link href="/"><Image width={270} height={80} src="/assets/img/logo/w-bg.png" alt="" /></Link>
                                     </div>
                                     <div className="main-menu">
                                         <ul>
@@ -38,7 +39,7 @@ export default function Header7({ scroll, isMobileMenu, handleMobileMenu, isSear
                                         </div>
                                         <ul>
                                             <li><Link href="/#"><i className="fa-brands fa-facebook-f" /></Link></li>
-                                             
+
                                             <li><Link href="/#"><i className="fa-brands fa-linkedin-in" /></Link></li>
                                             <li><Link href="/#" className="m-0"><i className="fa-brands fa-youtube" /></Link></li>
                                         </ul>
