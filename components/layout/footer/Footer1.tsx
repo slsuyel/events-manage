@@ -13,7 +13,7 @@ export default function Footer1() {
                                         {/* <Link href="/"><Image width={270} height={80} src="/assets/img/logo/w-bg.png" alt="" /></Link> */}
                                        
                                         <Image width={100} height={100} src="/assets/img/logo/no-bg-lll.png" alt="" />
-                                        <Link href={`/`} className=' text-white py-3 fw-bold fs-3'> BEAR Summit 2025</Link>
+                                        <Link href={`/`} className=' text-white py-3 fw-bold fs-3'> BNSS 2025</Link>
                                     </div>
 								<div className="space16" />
 								<p>We are committed to creating a platform where business leaders, innovators, and professionals
@@ -100,7 +100,7 @@ Dhaka & Chattogram</Link>
 					<div className="row">
 						<div className="col-lg-12">
 							<div className="copyright">
-								<p>© Copyright {new Date().getFullYear()} -Eventify. All Right Reserved</p>
+								<p>© Copyright {new Date().getFullYear()} -BNSS . All Right Reserved</p>
 							</div>
 						</div>
 					</div>
